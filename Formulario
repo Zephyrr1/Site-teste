@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+  
+<html>
+<head> 
+     <meta charset ="utf-8">
+
+</head>
+
+
+            <body>
+
+
+              <form method = "post" action = "Site" autocomplete="on">
+
+
+              <input type = "hidden" name = "recipient" 
+                 value = "email">
+
+              <input type = "hidden" name ="redirect"
+                 value = "arquivo">
+
+          <p> 
+               <label>
+           Nome:
+           <input name = "name" type = "text" size = "25"
+           maxlength="30">
+
+
+</label></p>
+     
+<p> 
+   <label>
+Sobrenome:
+<input name = "name" type = "text" size = "25"
+maxlength="30">
+
+ <p> 
+               <label>
+           Email:
+           <input type = "email"  placeholder = "name@email.com"
+                  required /> (name@email.com)
+               </label>
+
+
+</label></p>
+
+</label></p>
+
+<details>
+   <summary>Pergunta opcional</summary>
+   <p><label for = "txtList">Qual semestre você está?
+      <input type = "text" id="txtList"
+      placeholder="Selecione o semestre" list="Semestre"/>
+      <datalist id = "Semestre">
+         <option value="1 Semestre">
+         <option value="2 Semestre">
+         <option value="3 Semestre">
+         <option value="4 Semestre">
+         <option value="5 Semestre">
+         <option value="6 Semestre">
+         <option value="7 Semestre">
+         <option value="8 Semestre">
+        
+      </datalist>
+   </p>
+ </details>
+ <p><input type = "submit" value = "Submit" />
+       </form>
+</body>
+</html>
